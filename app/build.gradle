@@ -49,9 +49,6 @@ dependencies {
   implementation Libs.constraintlayout
   implementation Libs.ktx
 
-  implementation Libs.coroutine
-  implementation Libs.ui_coroutine
-
   implementation Libs.fragmentx
   implementation Libs.activityx
 }

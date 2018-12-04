@@ -1,3003 +1,3003 @@
 package com.github.satoshun.example.sample
 
-import kotlinx.coroutines.suspendCancellableCoroutine
+import android.os.Handler
 
 class Plan0 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan1 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan2 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan3 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan4 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan5 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan6 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan7 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan8 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan9 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan10 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan11 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan12 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan13 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan14 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan15 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan16 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan17 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan18 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan19 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan20 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan21 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan22 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan23 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan24 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan25 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan26 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan27 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan28 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan29 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan30 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan31 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan32 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan33 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan34 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan35 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan36 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan37 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan38 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan39 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan40 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan41 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan42 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan43 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan44 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan45 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan46 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan47 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan48 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan49 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan50 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan51 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan52 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan53 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan54 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan55 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan56 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan57 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan58 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan59 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan60 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan61 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan62 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan63 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan64 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan65 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan66 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan67 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan68 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan69 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan70 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan71 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan72 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan73 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan74 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan75 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan76 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan77 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan78 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan79 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan80 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan81 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan82 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan83 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan84 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan85 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan86 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan87 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan88 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan89 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan90 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan91 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan92 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan93 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan94 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan95 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan96 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan97 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan98 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }
 
 class Plan99 {
-  suspend fun hoge1() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge1() {
+    Handler().post { }
   }
 
-  suspend fun hoge2() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge2() {
+    Handler().post { }
   }
 
-  suspend fun hoge3() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge3() {
+    Handler().post { }
   }
 
-  suspend fun hoge4() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge4() {
+    Handler().post { }
   }
 
-  suspend fun hoge5() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge5() {
+    Handler().post { }
   }
 
-  suspend fun hoge6() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge6() {
+    Handler().post { }
   }
 
-  suspend fun hoge7() {
-    suspendCancellableCoroutine<Int> { }
+  fun hoge7() {
+    Handler().post { }
   }
 }

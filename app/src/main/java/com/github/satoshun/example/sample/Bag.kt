@@ -1,69 +1,67 @@
 package com.github.satoshun.example.sample
 
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.channels.Channel
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.selects.select
+import android.os.Handler
+import kotlin.concurrent.thread
 
 class Bag0 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -72,63 +70,63 @@ class Bag0 {
 
 class Bag1 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -137,63 +135,63 @@ class Bag1 {
 
 class Bag2 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -202,63 +200,63 @@ class Bag2 {
 
 class Bag3 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -267,63 +265,63 @@ class Bag3 {
 
 class Bag4 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -332,63 +330,63 @@ class Bag4 {
 
 class Bag5 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -397,63 +395,63 @@ class Bag5 {
 
 class Bag6 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -462,63 +460,63 @@ class Bag6 {
 
 class Bag7 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -527,63 +525,63 @@ class Bag7 {
 
 class Bag8 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -592,63 +590,63 @@ class Bag8 {
 
 class Bag9 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -657,63 +655,63 @@ class Bag9 {
 
 class Bag10 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -722,63 +720,63 @@ class Bag10 {
 
 class Bag11 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -787,63 +785,63 @@ class Bag11 {
 
 class Bag12 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -852,63 +850,63 @@ class Bag12 {
 
 class Bag13 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -917,63 +915,63 @@ class Bag13 {
 
 class Bag14 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -982,63 +980,63 @@ class Bag14 {
 
 class Bag15 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1047,63 +1045,63 @@ class Bag15 {
 
 class Bag16 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1112,63 +1110,63 @@ class Bag16 {
 
 class Bag17 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1177,63 +1175,63 @@ class Bag17 {
 
 class Bag18 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1242,63 +1240,63 @@ class Bag18 {
 
 class Bag19 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1307,63 +1305,63 @@ class Bag19 {
 
 class Bag20 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1372,63 +1370,63 @@ class Bag20 {
 
 class Bag21 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1437,63 +1435,63 @@ class Bag21 {
 
 class Bag22 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1502,63 +1500,63 @@ class Bag22 {
 
 class Bag23 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1567,63 +1565,63 @@ class Bag23 {
 
 class Bag24 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1632,63 +1630,63 @@ class Bag24 {
 
 class Bag25 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1697,63 +1695,63 @@ class Bag25 {
 
 class Bag26 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1762,63 +1760,63 @@ class Bag26 {
 
 class Bag27 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1827,63 +1825,63 @@ class Bag27 {
 
 class Bag28 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1892,63 +1890,63 @@ class Bag28 {
 
 class Bag29 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -1957,63 +1955,63 @@ class Bag29 {
 
 class Bag30 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2022,63 +2020,63 @@ class Bag30 {
 
 class Bag31 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2087,63 +2085,63 @@ class Bag31 {
 
 class Bag32 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2152,63 +2150,63 @@ class Bag32 {
 
 class Bag33 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2217,63 +2215,63 @@ class Bag33 {
 
 class Bag34 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2282,63 +2280,63 @@ class Bag34 {
 
 class Bag35 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2347,63 +2345,63 @@ class Bag35 {
 
 class Bag36 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2412,63 +2410,63 @@ class Bag36 {
 
 class Bag37 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2477,63 +2475,63 @@ class Bag37 {
 
 class Bag38 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2542,63 +2540,63 @@ class Bag38 {
 
 class Bag39 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2607,63 +2605,63 @@ class Bag39 {
 
 class Bag40 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2672,63 +2670,63 @@ class Bag40 {
 
 class Bag41 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2737,63 +2735,63 @@ class Bag41 {
 
 class Bag42 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2802,63 +2800,63 @@ class Bag42 {
 
 class Bag43 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2867,63 +2865,63 @@ class Bag43 {
 
 class Bag44 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2932,63 +2930,63 @@ class Bag44 {
 
 class Bag45 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -2997,63 +2995,63 @@ class Bag45 {
 
 class Bag46 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3062,63 +3060,63 @@ class Bag46 {
 
 class Bag47 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3127,63 +3125,63 @@ class Bag47 {
 
 class Bag48 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3192,63 +3190,63 @@ class Bag48 {
 
 class Bag49 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3257,63 +3255,63 @@ class Bag49 {
 
 class Bag50 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3322,63 +3320,63 @@ class Bag50 {
 
 class Bag51 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3387,63 +3385,63 @@ class Bag51 {
 
 class Bag52 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3452,63 +3450,63 @@ class Bag52 {
 
 class Bag53 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3517,63 +3515,63 @@ class Bag53 {
 
 class Bag54 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3582,63 +3580,63 @@ class Bag54 {
 
 class Bag55 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3647,63 +3645,63 @@ class Bag55 {
 
 class Bag56 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3712,63 +3710,63 @@ class Bag56 {
 
 class Bag57 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3777,63 +3775,63 @@ class Bag57 {
 
 class Bag58 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3842,63 +3840,63 @@ class Bag58 {
 
 class Bag59 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3907,63 +3905,63 @@ class Bag59 {
 
 class Bag60 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -3972,63 +3970,63 @@ class Bag60 {
 
 class Bag61 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4037,63 +4035,63 @@ class Bag61 {
 
 class Bag62 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4102,63 +4100,63 @@ class Bag62 {
 
 class Bag63 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4167,63 +4165,63 @@ class Bag63 {
 
 class Bag64 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4232,63 +4230,63 @@ class Bag64 {
 
 class Bag65 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4297,63 +4295,63 @@ class Bag65 {
 
 class Bag66 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4362,63 +4360,63 @@ class Bag66 {
 
 class Bag67 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4427,63 +4425,63 @@ class Bag67 {
 
 class Bag68 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4492,63 +4490,63 @@ class Bag68 {
 
 class Bag69 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4557,63 +4555,63 @@ class Bag69 {
 
 class Bag70 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4622,63 +4620,63 @@ class Bag70 {
 
 class Bag71 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4687,63 +4685,63 @@ class Bag71 {
 
 class Bag72 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4752,63 +4750,63 @@ class Bag72 {
 
 class Bag73 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4817,63 +4815,63 @@ class Bag73 {
 
 class Bag74 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4882,63 +4880,63 @@ class Bag74 {
 
 class Bag75 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -4947,63 +4945,63 @@ class Bag75 {
 
 class Bag76 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5012,63 +5010,63 @@ class Bag76 {
 
 class Bag77 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5077,63 +5075,63 @@ class Bag77 {
 
 class Bag78 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5142,63 +5140,63 @@ class Bag78 {
 
 class Bag79 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5207,63 +5205,63 @@ class Bag79 {
 
 class Bag80 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5272,63 +5270,63 @@ class Bag80 {
 
 class Bag81 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5337,63 +5335,63 @@ class Bag81 {
 
 class Bag82 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5402,63 +5400,63 @@ class Bag82 {
 
 class Bag83 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5467,63 +5465,63 @@ class Bag83 {
 
 class Bag84 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5532,63 +5530,63 @@ class Bag84 {
 
 class Bag85 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5597,63 +5595,63 @@ class Bag85 {
 
 class Bag86 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5662,63 +5660,63 @@ class Bag86 {
 
 class Bag87 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5727,63 +5725,63 @@ class Bag87 {
 
 class Bag88 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5792,63 +5790,63 @@ class Bag88 {
 
 class Bag89 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5857,63 +5855,63 @@ class Bag89 {
 
 class Bag90 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5922,63 +5920,63 @@ class Bag90 {
 
 class Bag91 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -5987,63 +5985,63 @@ class Bag91 {
 
 class Bag92 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -6052,63 +6050,63 @@ class Bag92 {
 
 class Bag93 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -6117,63 +6115,63 @@ class Bag93 {
 
 class Bag94 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -6182,63 +6180,63 @@ class Bag94 {
 
 class Bag95 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -6247,63 +6245,63 @@ class Bag95 {
 
 class Bag96 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -6312,63 +6310,63 @@ class Bag96 {
 
 class Bag97 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -6377,63 +6375,63 @@ class Bag97 {
 
 class Bag98 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
@@ -6442,63 +6440,63 @@ class Bag98 {
 
 class Bag99 {
   fun hoge1() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge2() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge3() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge4() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge5() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge6() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }
   }
 
   fun hoge7() {
-    GlobalScope.launch {
-      select<Int> { }
-      for (i in Channel<Int>()) {
+    Handler().post {
+      thread { }
+      for (i in 0..100) {
         print(i)
       }
     }

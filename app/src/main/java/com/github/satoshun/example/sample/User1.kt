@@ -1,7906 +1,7903 @@
 package com.github.satoshun.example.sample
 
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.async
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import kotlin.concurrent.thread
 
 class User0 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User1 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User2 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User3 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User4 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User5 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User6 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User7 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User8 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User9 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User10 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User11 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User12 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User13 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User14 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User15 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User16 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User17 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User18 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User19 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User20 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User21 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User22 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User23 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User24 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User25 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User26 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User27 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User28 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User29 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User30 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User31 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User32 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User33 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User34 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User35 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User36 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User37 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User38 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User39 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User40 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User41 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User42 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User43 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User44 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User45 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User46 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User47 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User48 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User49 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User50 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User51 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User52 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User53 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User54 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User55 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User56 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User57 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User58 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User59 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User60 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User61 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User62 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User63 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User64 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User65 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User66 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User67 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User68 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User69 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User70 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User71 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User72 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User73 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User74 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User75 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User76 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User77 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User78 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User79 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User80 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User81 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User82 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User83 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User84 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User85 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User86 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User87 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User88 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User89 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User90 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User91 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User92 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User93 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User94 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User95 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User96 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User97 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User98 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
 
 class User99 {
-  suspend fun hoge1() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge1() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge2() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge2() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge3() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge3() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge4() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge4() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge5() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge5() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge6() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge6() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 
-  suspend fun hoge7() {
-    GlobalScope.launch {
-      delay(100)
-      delay(100)
-      delay(100)
+  fun hoge7() {
+    thread {
+      Thread.sleep(100)
+      Thread.sleep(100)
+      Thread.sleep(100)
 
-      async { }.await()
-      launch { }
+      thread { }.join()
+      thread { }
     }
   }
 }
